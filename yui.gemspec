@@ -6,7 +6,7 @@ end
 
 Gem::Specification.new do |s|
   s.name        = "yui"
-  s.version     = "1.1.2"
+  s.version     = "1.1.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Klaus Kämpf", "Amon Sha"]
   s.email       = ["kkaempf@suse.de", "amon.sha@gmail.com"]
