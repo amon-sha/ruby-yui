@@ -19,31 +19,5 @@ module Yui
     def []=(name, value)
       set_property(name.to_s, Yui::YPropertyValue.new(value))
     end
-=begin
-    def activated(&block)
-      @activated = block
-    end
-    alias_method :clicked, :activated
-
-    def value_changed(&block)
-      @value_changed = block
-    end
-    
-    def selection_changed(&block)
-      @selection_changed = block
-    end
-
-    def activated_fire(event)
-      @activated ? @activated.call(event) : :continue
-    end
-
-    def value_changed_fire(event)
-      @value_changed ? @value_changed.call(event) : :continue
-    end
-
-    def selection_changed_fire(event, dialog)
-      @selection_changed ? @selection_changed.call(event) : :continue
-    end
-=end
   end
 end
